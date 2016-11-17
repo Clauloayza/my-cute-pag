@@ -1,1 +1,130 @@
-/* Inserta tu CSS aqui */
+
+/* -------------------------------------------------BODY-----*/
+*{
+    outline:1px solid green;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* -------------------------------------------------HEADER-----*/
+header a {
+    color: #000000;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+header a:hover{
+    color: #f507ac;
+    background: #dbd3d3;
+    opacity: 0.5;
+    padding: 17px;
+}
+header {
+    height: 40px;
+}
+/*-------------------------------------------------SECTION --*/
+
+.hero {
+    background-image: url(../images/14322518_622037161296163_5537871634468702525_n.jpg);
+    height: 600px;
+    background-size: cover;
+}
+.hero h1{
+    margin-top: 200px;
+    color: #fff;
+    font-weight: bold;
+    }
+.hero h1:hover{
+    color: #79b4d3;
+    opacity: 0.6;
+}
+.hero h3{
+    color:#ffffff
+}
+.hero .hearth{
+   width: 100px;
+   height: 100px;
+    position: relative;
+    top: 150px;
+}
+.hero .hearth:hover{
+    width: 50px;
+}
+/*-------------------------------------------------CONTENIDO --*/
+h4{
+    color: #ef8ce7;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.contenido img {
+    width: 220px;
+    float: right;
+    position: relative;
+}
+.contenido p{
+    text-align: left;
+    padding-bottom: 90px;
+}
+.contenido{
+    background-image: url(../images/tile1.png)
+}
+/*-------------------------------------------------FAVOURITE --*/
+
+.favourite h4{
+   padding-top: 70px;
+}
+.favourite h5{
+    color:#ef8ce7;
+    font-weight: bold;
+    opacity: 0.7;
+    padding: 15px;
+}
+.favourite img{
+    width: 240px;
+    height: 240px;
+    border-radius: 300px;
+    padding: 5px;
+    margin-bottom: 35px;
+} 
+.favourite p{
+    font-weight: bold;
+    background: #73777b;
+    color: #fff;
+    padding: 10px;
+}
+
+/*-------------------------------------------------FOOTER --*/
+footer{
+    background-image: url(../images/tile2.png);
+    
+}
+footer h4{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.item img{
+    padding: 20px;
+    width: 120px;
+}
+.item img:hover{
+    opacity: 0.5;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
